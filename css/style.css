@@ -1,0 +1,88 @@
+body {
+  font-size: 16px;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 {
+  color: #666;
+  font-weight: bold;
+}
+#navbar-header {
+  background-color: #acb6d9;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.navbar-brand h1 {
+  margin-top: -20px;
+  margin-bottom: 0;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  line-height: 1.7;
+}
+.navbar-brand a:hover {
+  text-decoration: none;
+}
+#navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  border: 1px solid rgb(46 43 6);
+}
+#navbar-header button.navbar-toggle span:hover {
+  background-color: #666;
+}
+
+.chicken {
+  margin-top: -7.5px;
+  border-bottom: 1px solid black;
+}
+.sushi {
+  margin-bottom: -7.5px;
+  border-top: 1px solid black;
+}
+#nav-list a {
+  color: black;
+  text-transform: capitalize;
+  background-color: #8382d3;
+}
+
+#nav-list a:hover {
+  background: #c4eaff;
+}
+#nav-list li {
+  /* text-align: center; */
+  color: black;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+#nav-list a span br {
+  background-color: black;
+}
+#our-menu h1 {
+  margin-bottom: 20px;
+}
+#our-menu h2 {
+  margin-bottom: 20px;
+}
+#our-menu .menu {
+  background-color: #c4eaff;
+
+  padding-top: 20px;
+  margin-bottom: 50px;
+  border: 2px solid rgb(46 43 6);
+}
+
+@media (max-width: 767px) {
+  #our-menu {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  #collapsable-nav {
+    border: 1px solid rgb(46 43 6);
+  }
+}
